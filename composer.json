@@ -1,0 +1,29 @@
+{
+    "name": "zvoanhkietz/phpunit_tutorial",
+    "description": "Simple project using PHPUnit.",
+    "type": "study",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Vo Anh Kiet",
+            "email": "zvoanhkietz@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "test/src"
+        }
+    }
+}
